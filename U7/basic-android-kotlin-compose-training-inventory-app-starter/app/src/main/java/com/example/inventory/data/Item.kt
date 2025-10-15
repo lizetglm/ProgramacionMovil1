@@ -23,7 +23,7 @@ import androidx.room.PrimaryKey
 /**
  * Entity data class represents a single row in the database.
  */
-@Entity(tableName = "items") //establece el nombre de la tabla en SQLite
+@Entity(tableName = "items")
 data class Item(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
